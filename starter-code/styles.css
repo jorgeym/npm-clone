@@ -1,0 +1,237 @@
+body{
+  font-family: sans-serif;
+}
+
+h1, h2 {
+  font-weight: lighter;
+}
+
+h3{
+  font-size: 12px;
+}
+
+p,li, span {
+  font-size: 11px;
+}
+
+/*Nav bar styles*/
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 5px 0px 5px 0px;
+  height: 20px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left{
+  float: left;
+  margin: 0 0 0 20px;
+}
+
+/*header styles*/
+
+header{
+
+  background-size: cover;
+  background-image: url('images/city-scape.svg');
+  color:white;
+  height:300px;
+  padding:10px 10px 10px 10px;
+}
+header a {
+  text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  font-size: 11px;
+}
+
+.header-1{
+  height:100px;
+  position:relative;
+}
+
+.logo{
+  width:8%;
+  height:45%;
+  float:left;
+  margin:10px,10px,10px,10px;
+}
+
+/*search bar styles*/
+
+.wrap{
+  left:10%;
+  width: 70%;
+  position: absolute;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  background-color: rgb(31, 82, 111);
+  width: 100%;
+  border: 1px solid rgb(192,192,192);
+  padding: 5px;
+  height: 25px;
+  outline: none;
+  color: rgb(192,192,192);
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 37px;
+  border: 1px solid rgb(192,192,192);
+  background: rgb(31, 82, 111);
+  text-align: center;
+  color: rgb(192,192,192);
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*end of search styles*/
+
+.img-bear{
+  width:25px;
+  height:25px;
+  margin: 0px 0px 0px 5px;
+}
+
+.header-2{
+  height: 200px;
+  padding:10px 200px 10px 200px;
+  line-height: 1em;
+}
+
+.text-header-2{
+  width: 50%;
+  float:left;
+}
+
+.img-right{
+  float:right;
+}
+
+.log-right{
+  float:right;
+  padding: 6px;
+}
+
+.button-header{
+  background:rgb(240,146,51);
+  color: white;
+  border: 1px solid rgb(240,146,51);
+  border-radius: 20px;
+}
+
+/*format content section - Orgs*/
+
+.orgs{
+  background: rgb(39, 53, 71);
+  color:white;
+  height:300px;
+  padding:50px 200px 50px 200px;
+}
+
+.img-orgs{
+  width:50%;
+  float:left;
+}
+
+.text-orgs{
+  float: right;
+  width:40%;
+}
+
+#orgs li{
+  line-height: 2em;
+}
+
+.links{
+  text-decoration: none;
+  color:white;
+}
+
+#orgs button{
+  background:rgb(203, 56, 55);
+  color: white;
+  border: 1px solid rgb(203, 56, 55);
+  border-radius: 20px;
+}
+
+/*format content section what-is*/
+
+.what-is{
+  background-size: cover;
+  background-image: url('images/forklift.svg');
+  color:white;
+  height:300px;
+  padding:10px 200px 10px 200px;
+  position:relative;
+}
+
+.what-is-text{
+  width: 20%;
+  position:absolute;
+  top: 50px;
+  line-height: 1em;
+}
+
+#what-is button{
+  background:rgb(49, 68, 88);
+  color: white;
+  border: 1px solid rgb(49, 68, 88);
+  border-radius: 20px;
+}
+
+/*format content section what-make*/
+
+.what-make{
+  background: rgb(255, 255, 255);
+  color:black;
+  height:300px;
+  padding:10px 200px 10px 200px;
+  text-align: center;
+}
+
+.col{
+  float:left;
+  width:23.3%;
+  padding: 5px 5% 0 5%;
+}
+
+#what-make h2, h3{
+  color:rgb(83, 88, 98);
+}
+
+#what-make p{
+  color:rgb(135, 145, 156);
+}
+
+#what-make a{
+  text-decoration: none;
+  color:rgb(208, 74, 73);
+}
